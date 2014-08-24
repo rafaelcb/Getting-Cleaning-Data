@@ -28,4 +28,6 @@ fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
 
+The different variables are set up so that a "-mean()-" descriptor indicates that the variable shows the mean of the raw data and the "-std()-" descriptor represents the standard deviation of the raw data. Furthermore, the X,Y,Z identifiers at the end refer to the axial signals.
+
 Source: Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
