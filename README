@@ -1,0 +1,7 @@
+#Script description
+
+The code in the run_analysis.R file reads the UCI HAR Dataset, specifically the train and test data tables. The data is rearranged to include the variable namesand also the subject and activity for each observation.
+
+After that, the script merges both tables and select only the columns that include a mean or standard deviation from the original variables (a codebook is provided separately in the CODEBOOK.md file). Finally, the data is used to create an "averages" table, which indicates the mean of all the observations for each individual conditional on the activity in question. This results in an easier-to-manipulate dataset, with 180 obs of 81 variables.
+
+The script is written so that it is necessary to have the UCI HAR Dataset, which is available from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. It is also necessary to intall the plyr package on R prior to running the code. 
